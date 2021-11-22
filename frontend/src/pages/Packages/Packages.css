@@ -1,0 +1,224 @@
+.package{
+	background-color: #DBE6ED;
+}
+
+.package .package-title{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.package .package-title span{
+    color: #F8AE3A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.package .package-title h2{
+    color: #0C2B4B;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.package {
+	padding-bottom: 70px;
+
+}
+
+.package .section-title h2 {
+	color: #111111;
+}
+
+.package .package__item {
+	background: #f5f5f5;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.package .package__item:hover {
+	background: #0c2b4b;
+}
+
+.package .package__item:hover .package__item__title span {
+	color: #ffffff;
+}
+
+.package .package__item:hover .package__item__title h5 {
+	color: #ffffff;
+}
+
+.package .package__item:hover ul li {
+	color: #ffffff;
+}
+
+.package .package__item ul li {
+	color: #444444;
+}
+
+.package .package__item__title span {
+	color: #444444;
+}
+
+.package .package__item__title h5 {
+	color: #111111;
+}
+
+.package .section-title h2 {
+	color: #ffffff;
+}
+
+.package__item {
+	background: rgba(12, 43, 75, 0.3);
+	text-align: center;
+	padding: 40px 35px 35px;
+	margin-bottom: 40px;
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.package__item:hover {
+	background: #0c2b4b;
+}
+
+.package__item:hover .package__item__title {
+	border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+}
+
+.package__item:hover .package-btn {
+	background: #f3bd00;
+}
+
+.package__item .package__item__title {
+	border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+	padding-bottom: 45px;
+	margin-bottom: 25px;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.package__item .package__item__title span {
+	font-size: 20px;
+	color: #0c2b4b;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.package__item .package__item__title h2 {
+	font-size: 50px;
+	color: #f3bd00;
+	font-weight: 700;
+	margin-top: 4px;
+	margin-bottom: 18px;
+}
+
+.package__item .package__item__title h5 {
+	color: #0c2b4b;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.package__item ul {
+	margin-bottom: 35px;
+}
+
+.package__item ul li {
+	list-style: none;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 36px;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.package__item .package-btn {
+	display: block;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+    display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px 85px;
+	color: #ffffff;
+	background: #0c2b4b;
+	letter-spacing: 1px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    .blog__large__pic {
+		margin-right: 30px;
+	}
+	.blog__large__text {
+		padding-top: 12px;
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog__large__pic {
+		float: none;
+		margin-right: 0;
+	}
+	.blog__large__pic img {
+		min-width: 100%;
+		-webkit-transform: scale(1.25);
+		-ms-transform: scale(1.25);
+		transform: scale(1.25);
+		margin-bottom: 30px;
+	}
+	.blog__large__text {
+		padding-left: 50px;
+		padding-bottom: 60px;
+	}
+ }
+
+ @media only screen and (max-width: 767px) { 
+    .blog__large__pic {
+		float: none;
+		margin-right: 0;
+	}
+	.blog__large__pic img {
+		min-width: 100%;
+		-webkit-transform: scale(1.25);
+		-ms-transform: scale(1.25);
+		transform: scale(1.25);
+		margin-bottom: 30px;
+	}
+	.blog__large__text {
+		padding-left: 50px;
+		padding-bottom: 60px;
+	}
+	.blog__details__widget p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.blog__details__widget__social {
+		text-align: center;
+	}
+
+
+    @media only screen and (max-width: 479px) { 
+        .blog__hero__text {
+            padding: 40px 45px 30px;
+        }
+    }
+
+
+
+ }

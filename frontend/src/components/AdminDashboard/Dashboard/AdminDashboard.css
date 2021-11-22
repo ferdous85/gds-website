@@ -1,0 +1,7 @@
+.containerDashboard{
+  display: flex;
+}
+
+.others{
+  flex: 6;
+}

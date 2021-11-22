@@ -1,0 +1,257 @@
+
+.application-form {
+	background: #f5f5f5;
+	-webkit-clip-path: polygon(50% 0, 100% 21%, 100% 100%, 50% 100%, 0 100%, 0% 21%);
+	clip-path: polygon(50% 0, 100% 21%, 100% 100%, 50% 100%, 0 100%, 0% 21%);
+	padding-top: 290px;
+	margin-top: -190px;
+	padding-bottom: 70px;
+	background-color: #DBE6ED;
+}
+
+
+
+.application-form.pricing--page .application__form__content {
+	background: #f5f5f5;
+}
+
+.application-form.pricing--page .application__form__content .section-title span {
+	color: #0071e4;
+}
+
+.application-form.pricing--page .application__form__content .section-title h2 {
+	color: #111111;
+}
+
+.application-form.pricing--page .application__form__content form input {
+	color: #444444;
+	background: #ffffff;
+	border: 1px solid #e1e1e1;
+}
+
+.application-form.pricing--page .application__form__content form input::-webkit-input-placeholder {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form input::-moz-placeholder {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form input:-ms-input-placeholder {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form input::-ms-input-placeholder {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form input::placeholder {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form .nice-select {
+	background: #ffffff;
+	border: 1px solid #e1e1e1;
+}
+
+.application-form.pricing--page .application__form__content form .nice-select span {
+	color: #444444;
+}
+
+.application-form.pricing--page .application__form__content form .nice-select:after {
+	border-bottom: 1.5px solid rgba(17, 17, 17, 0.7);
+	border-right: 1.5px solid rgba(17, 17, 17, 0.7);
+}
+
+.application-form .application__form__content {
+	background: #0c2b4b;
+	padding: 70px;
+	
+}
+
+.app-section-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
+.app-section-title span{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .5px;
+	color: #FBB03B;
+}
+
+.app-section-title h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .5px;
+	font-style: italic;
+	letter-spacing: .7px;
+}
+
+
+
+
+.application-form .application__form__content form input {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: transparent;
+	color: #ffffff;
+}
+
+.application-form .application__form__content form input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form input::-moz-placeholder {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form input:-ms-input-placeholder {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form input::-ms-input-placeholder {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form input::placeholder {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form .nice-select {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: transparent;
+}
+
+.application-form .application__form__content form .nice-select span {
+	color: #ffffff;
+}
+
+.application-form .application__form__content form .nice-select:after {
+	border-color: #ffffff;
+}
+
+.application-form form input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #e1e1e1;
+	background: #ffffff;
+	font-size: 14px;
+	color: #444444;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.application-form form input:focus{
+	outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important
+}
+
+.textarea:focus{
+	outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important
+}
+
+.application-form form select {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #e1e1e1;
+	background: #0c2b4b;
+	font-size: 14px;
+	color: #ffffff;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.app-form-btn{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px 30px;
+	color: #0C2B4B;
+	background: #FBB03B;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.app-form-btn:hover{
+	color: #ffffff;
+	background: #0C2B4B;
+	transition: all .3s;
+}
+
+.application-form form input::-webkit-input-placeholder {
+	color: #444444;
+}
+
+.application-form form input::-moz-placeholder {
+	color: #444444;
+}
+
+.application-form form input:-ms-input-placeholder {
+	color: #444444;
+}
+
+.application-form form input::-ms-input-placeholder {
+	color: #444444;
+}
+
+.application-form form input::placeholder {
+	color: #444444;
+}
+
+.application-form form .nice-select {
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	float: none;
+	border-radius: 0;
+	border: 1px solid #e1e1e1;
+	font-size: 14px;
+	background: #ffffff;
+	margin-bottom: 30px;
+}
+
+.application-form form .nice-select span {
+	color: #444444;
+}
+
+.application-form form .nice-select:after {
+	border-bottom: 1.5px solid rgba(17, 17, 17, 0.7);
+	border-right: 1.5px solid rgba(17, 17, 17, 0.7);
+	height: 7px;
+	right: 22px;
+	width: 7px;
+}
+
+.application-form form .nice-select .list {
+	width: 100%;
+	border-radius: 0;
+	margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .application-form .application__form__content {
+		padding: 50px;
+	}
+}
+
+@media (min-width: 576px) {
+    .application-form .application__form__content {
+		padding: 45px;
+	}
+ }
+
+ @media only screen and (max-width: 479px) { 
+    .application-form .application__form__content {
+		padding: 30px 20px;
+	}
+
+ }
